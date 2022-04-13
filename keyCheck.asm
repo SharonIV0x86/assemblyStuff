@@ -61,7 +61,7 @@ section .data
     msg_access_denied db 0x9 ,"Key rejected! ", 0x10
     msg_access_denied_len equ $-msg_access_denied
 
-    original_key db "jojo"
+    original_key db "SharonIV"
     original_key_len equ $-original_key
 section .bss
     input_key: resb 64

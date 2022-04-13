@@ -1,5 +1,5 @@
 global _start
-
+;password --> SharonIV and ignore the commented instructions they were not working as i wanted!
     SYS_READ equ 0
     SYS_WRITE equ 1
     STDIN equ 0
@@ -28,7 +28,7 @@ compareData:
     mov rsi, original_key
     mov rdi, input_key
     mov rcx, original_key_len ;for how many times repe needs to be ran, the value needs to be stores in the rcx
-    repe cmpsb
+    repe cmpsb ;using this we can loop through every bytes of the strings
     je accessGranted
     jne accessDenied
 

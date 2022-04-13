@@ -67,28 +67,3 @@ _exit:
 ; so the value to be divided becomes 0100 which is basically just 100!
 ; and 100/2 = 50 will be stored in rax!
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
